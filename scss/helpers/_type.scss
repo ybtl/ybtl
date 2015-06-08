@@ -1,0 +1,45 @@
+/* ==========================================================================
+   TYPE
+   - Copy
+   - Type Scale
+   ========================================================================== */
+
+body { font-family: $karla; }
+
+/* Type Scale
+   ========================================================================== */
+
+h1 { font-size: 2.87142857rem; }
+h2 { font-size: 2.428571429rem; }
+h3 { font-size: 2.271428571rem; }
+h4 { font-size: 1.714285714rem; }
+h5 { font-size: 1.428571429rem; }
+h6 { font-size: 1.142857143rem; }
+
+small, .small {       font-size: 0.857142857rem; }
+
+@include break(small) {
+
+h1 { font-size: 3.27142857rem; }
+h2 { font-size: 2.428571429rem; }
+h3 { font-size: 2.271428571rem; }
+h4 { font-size: 1.714285714rem; }
+h5 { font-size: 1.428571429rem; }
+h6 { font-size: 1.142857143rem; }
+
+small, .small {       font-size: 0.857142857rem; }
+
+}
+
+// Tablet + Desktop
+
+@include break(medium) {
+
+}
+
+// Desktop
+
+@include break(large) {
+
+}
+
