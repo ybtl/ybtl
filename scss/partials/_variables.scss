@@ -36,17 +36,9 @@ $dark-border-color: #333;
 // Links
 
 $primary-link: $white;
-$primary-link-hover: darken($primary-link, 9%);
-
-$secondary-link: $navy;
-$secondary-link-hover: darken($secondary-link, 9%);
+$primary-link-hover: $white;
 
 // Font Stacks
 
-$sans-serif: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif;
 $serif: "Calisto MT", georgia, serif;
 $karla: 'Karla', sans-serif;
-$raleway: "Raleway", sans-serif;
-$lato: "Lato", sans-serif;
-$open-sans: "Open sans", sans-serif;
-
