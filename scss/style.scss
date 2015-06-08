@@ -8,21 +8,3 @@
 @import "partials/base"; 
 @import "partials/type";
 @import "partials/classes";
-
-// Tablet
-
-@include break(small) {
-
-}
-
-// Tablet + Desktop
-
-@include break(medium) {
-
-}
-
-// Desktop
-
-@include break(large) {
-
-}
